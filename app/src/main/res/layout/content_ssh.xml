@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vn.eagleeye.keepitontime.ChangeFontActivity"
+    android:orientation="vertical"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:text="ssh disconnected"
+        android:id="@+id/sshStatusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText android:hint="input command"
+        android:id="@+id/inputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="run command"
+        android:id="@+id/runBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/omxPlayBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Play video" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/testOmxBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Play/pause" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/seekOmxBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Seek" />
+
+
+    <Button
+        android:text="reboot pi"
+        android:id="@+id/rebootBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+
+</LinearLayout>
+

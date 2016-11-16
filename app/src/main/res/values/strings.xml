@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KeepItOnTime</string>
+    <string name="title_activity_change_font">ChangeFontActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Change font size</string>
+    <string name="action_settings2">Turn off PI</string>
+    <string name="action_settings3">SSH Test</string>
+
+    <string name="settings_intruction">Please connect your Raspberry PI and your phone into a same local network.
+        Then hit "Scan PI" to scan all PI machines.</string>
+    <string name="title_activity_ssh">SSHActivity</string>
+
+</resources>
