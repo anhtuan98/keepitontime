@@ -24,9 +24,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
 
-public class ChangeFontActivity extends ActionBarActivity {
+public class ChangeFontActivity extends AppCompatActivity {
 
-    private static String fontSize ="Size 200";
+    private static String fontSize ="Size 300";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
