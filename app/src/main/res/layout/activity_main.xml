@@ -1,3 +1,64 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:scrollbars = "vertical"
+    android:scrollbarStyle="insideInset"
+    >
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1"
+        >
+        <!-- Add here which you want -->
+
+        <TextView
+            android:id="@+id/statusText"
+            android:text="@string/hello_world"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText android:textSize="20pt"
+            android:id="@+id/timeEditText"
+            android:enabled="false"
+            android:layout_gravity="center_horizontal"
+            android:text="dadsasdsad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TimePicker
+            android:layout_gravity="center"
+            android:id="@+id/timePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+        </TimePicker>
+
+
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/setBtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Set" >
+        </Button>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/startPauseBtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Start" >
+        </Button>
+
+    </TableLayout>
+
+</ScrollView>
+
+
+<!--
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,43 +70,9 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".SettingsActivity">
 
-    <TextView
-        android:id="@+id/statusText"
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <EditText android:textSize="20pt"
-        android:id="@+id/timeEditText"
-        android:enabled="false"
-        android:layout_gravity="center_horizontal"
-        android:text="dadsasdsad"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TimePicker
-        android:layout_gravity="center"
-        android:id="@+id/timePicker"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        >
 
-    </TimePicker>
+   Old code here
 
-
-    <Button
-        android:layout_margin="10dp"
-        android:id="@+id/setBtn"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Set" >
-    </Button>
-
-    <Button
-        android:layout_marginTop="20dp"
-        android:id="@+id/startPauseBtn"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Start" >
-    </Button>
 </LinearLayout>
+
+-->
